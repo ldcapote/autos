@@ -1,0 +1,103 @@
+.grid-productos{
+   
+    gap: 20px;
+}
+
+
+.producto{
+    font-size: 35px;
+    border: solid black 1px !important;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.producto img{
+    width: 100%;
+}
+.container{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header{
+    background-color:lightgrey ;
+}
+.BotonDetalles{
+  color: rgb(245, 246, 247) !important;
+  background-color: black;
+  border-radius: 30px;
+  margin: 30px;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;          
+  font-weight: bold;       
+}
+
+a:hover {
+  color: rgb(51, 0, 255);             
+  text-decoration: underline;
+}
+nav {
+  all: unset; 
+  display: block; 
+  padding: 0;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;    
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0;
+  padding-left: 30px;
+}
+.carrusel{
+    
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 10px;
+}
+
+i{
+    font-size: 30px;
+}
+
+.tituloNP{
+  background-color:rgb(72, 65, 65) 
+}
+
+.Imagen-Producto{
+  width: 100%;
+}
+.contenedor1{
+  padding-top: 100px;
+}
+.precio{
+  color: black;
+  font-size: 25px;
+}
+.button{
+  margin: 40px 0px -30px -30px;
+  font-size: 20px;
+}
+.carro{
+  text-align: left !important;
+}
+.detalle-items{
+  font-size: 10px;
+}
+.carro-item{
+  border: solid;
+  border-color: grey ;
+  padding: 3px;
+}
+.btn-compra{
+  text-align: center;
+}
